@@ -10,7 +10,6 @@
 }
 
 .container {
-  /* margin: 0px auto;     */
   display: grid;
   max-width: 1000px;
   border: 1px solid black;
