@@ -1,0 +1,44 @@
+.one {
+  border: 1px solid black;
+  background-color: lightcoral;
+  /* opacity: 1; */
+  padding: 10px;
+  width: 190px;
+  /* transition: all 1s ease; */
+  /* transition: height 1s linear; */
+  transition: height 1s opacity 1s;
+  float: left;
+  /* display: block; */
+  display: none;
+}
+
+
+/* .one:focus {
+  width: 225px;
+}
+
+.one:hover {
+  width: 225px;
+}
+
+.two{
+  border: 1px solid black;
+  padding: 10px;
+} */
+
+.three {
+  padding: 10px;
+  border: 1px solid black;
+  /* transition: opacity 1s ease-out; */
+  transition: display 1s ease-out;
+  /* opacity: 0.5;  */
+  display:block;
+  /* height: 0; */
+  overflow: hidden;
+}
+
+.three.hover {
+  display:none;
+  opacity: 1;
+  /* height: auto; */
+}
