@@ -1,0 +1,14 @@
+function toggleDisplay(id) {
+  const pages = document.getElementsByClassName('pages')
+  const pagesArray = []
+  for (let ar_i = 0; ar_i < pages.length; ar_i++)
+    pagesArray.push(pages[ar_i])
+  const otherDivs = pagesArray.filter((current) => current.id !== id)
+
+  otherDivs.map((current) => {
+    current.style.display = 'none'
+  })
+
+  const current = document.getElementById(id)
+  current.style.display = 'block'
+}
