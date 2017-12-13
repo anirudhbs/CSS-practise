@@ -7,17 +7,22 @@
   display: grid;
   border: 1px solid black;
   grid-gap: 10px;
-  grid-template-areas: ". . ." ". a ." ". . .";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   min-height: 100%;
 }
 
 .container>div {
-  border: 2px black;
-  background-color: rgba(0, 100, 0, 0.25);
+
   padding: 10px;
-  border: 1px solid black;
 }
 
 .one {
-  grid-area: a;
+  justify-self: center;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+button {
+  top: 50%;
 }
