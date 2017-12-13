@@ -1,9 +1,13 @@
+div {
+  min-height: 720px;
+}
+
 .one {
   width: 90%;
   background: pink;
   padding: 20px;
   display: none;
-  animation: slide-sideways .3s ease-out;
+  animation: slide-sideways .3s linear;
 }
 
 .oneNew {
@@ -12,10 +16,10 @@
 
 .two {
   width: 90%;
-  background: yellow;
+  background: lightgreen;
   padding: 20px;
   display: none;
-  animation: slide-sideways .3s ease-out;
+  animation: slide-sideways .3s linear;
 }
 
 .twoNew {
