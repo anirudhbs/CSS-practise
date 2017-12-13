@@ -2,18 +2,22 @@ html,
 body {
   margin: 0px;
   padding: 0px;
+  font-family: 'Verdana', 'Arial', 'Sans-serif';
+  font-weight: 400;
+  color: #666666;
 }
 
 .container {
-  height: 100vh;
+  height: 98vh;
 }
 
 .navbar {
-  background-color: lightblue;
+  background-color: #464749;
   width: 100%;
   max-height: 40px;
   min-height: 44px;
-  transition: all 0.3s ease-in-out;
+  /* overflow: hidden; */
+  display: inline-block;
 }
 
 .navbar ul {
@@ -21,18 +25,20 @@ body {
   padding: 0;
   margin: 0;
   float: right;
+  color: white;
 }
 
 .navbar ul li {
   display: inline-block;
   padding: 10px;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .pages {
   min-height: 100%;
   width: 100%;
-  background: lightcoral;
+  /* background: lightcoral; */
   display: none;
   animation: slide-sideways .3s linear;
 }
@@ -46,4 +52,117 @@ body {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+.banner {
+  background-image: url("../../images/geekskool.jpg");
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  min-height: 100%;
+}
+
+.apply>button {
+  margin-top: 34%;
+  margin-left: 0px;
+  padding: 7px;
+  font-size: 20px;
+  color: #ec9d90;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #ec9d90;
+  z-index: 100;
+}
+
+.apply>button:hover {
+  color: #fff;
+  background-color: #ec9d90;
+  cursor: pointer;
+}
+
+.footer {
+  /* position: fixed; */
+  width: 100%;
+  /* right: 0; */
+  /* left: 0; */
+  /* bottom: 0; */
+  /* width: 100%; */
+  background-color: lightgray;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.one {
+  justify-self: center;
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.applyBtn {
+  margin-top: 34%;
+  margin-left: 0px;
+  padding: 7px;
+  font-size: 20px;
+  color: #ec9d90;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #ec9d90;
+  z-index: 100;
+}
+
+.applyBtn:hover {
+  color: #fff;
+  background-color: #ec9d90;
+  cursor: pointer;
+}
+
+.button,
+.applyBtn:focus {
+  outline: none;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0px 0px 10px;
+  display: inline-block;
+}
+
+.logo img {
+  margin: -12px;
+}
+
+.columntxt {
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: justify;
+  box-sizing: border-box;
+  width: 33%;
+  min-height: 172px;
+  float: left;
+}
+
+.one {
+  float: left;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 20px;
+  clear: both;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
 }
