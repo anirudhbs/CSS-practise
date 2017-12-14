@@ -7,6 +7,10 @@ body {
   color: #666666;
 }
 
+h2 {
+  text-align: center;
+}
+
 .container {
   height: 98vh;
 }
@@ -16,7 +20,6 @@ body {
   width: 100%;
   max-height: 40px;
   min-height: 44px;
-  /* overflow: hidden; */
   display: inline-block;
 }
 
@@ -25,20 +28,19 @@ body {
   padding: 0;
   margin: 0;
   float: right;
-  color: white;
+  color: #ffffff;
 }
 
 .navbar ul li {
   display: inline-block;
   padding: 10px;
-  border: 1px solid black;
   cursor: pointer;
 }
 
 .pages {
   min-height: 100%;
   width: 100%;
-  /* background: lightcoral; */
+  background: #f08080;
   display: none;
   animation: slide-sideways .3s linear;
 }
@@ -78,7 +80,7 @@ body {
 }
 
 .apply>button:hover {
-  color: #fff;
+  color: #ffffff;
   background-color: #ec9d90;
   cursor: pointer;
 }
@@ -90,7 +92,7 @@ body {
   /* left: 0; */
   /* bottom: 0; */
   /* width: 100%; */
-  background-color: lightgray;
+  background-color: #d3d3d3;
   text-align: center;
 }
 
@@ -109,19 +111,19 @@ a {
 }
 
 .applyBtn {
-  margin-top: 34%;
-  margin-left: 0px;
+  /* margin-top: 34%; */
+  /* margin-left: 0px; */
   padding: 7px;
   font-size: 20px;
   color: #ec9d90;
   background: transparent;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid #ec9d90;
   z-index: 100;
 }
 
 .applyBtn:hover {
-  color: #fff;
+  color: #ffffff;
   background-color: #ec9d90;
   cursor: pointer;
 }
@@ -161,8 +163,4 @@ a {
   margin-bottom: 20px;
   clear: both;
   padding: 10px;
-}
-
-h2 {
-  text-align: center;
 }
