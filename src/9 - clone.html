@@ -1,124 +1,128 @@
 <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./css/9.css">
-      <title>GEEKSKOOL</title>      
-    </head>
-    <body>
-        <div class="navbar" id="navbar">
-            <div class="logo">
-              <img src='../images/logo.png' />
-              <a href="/" class="header">GEEKSKOOL</a>
-            </div>
-            <div class="navbar-short">
-                <img src="../images/bar-menu.png">
-              </div>
-            <div>
-              <ul>
-                <li onclick="toggleDisplay('one')">About</li>
-                <li onclick="toggleDisplay('two')">FAQ</li>
-                <li onclick="toggleDisplay('three')">Alumni</li>
-                <li onclick="toggleDisplay('four')">Mentors</li>
-                <li onclick="toggleApply('zero')">Apply</li>                
-              </ul>
-            </div>
-          </div>
-      <div class="container">
-        <div id="zero" class="single zero">
-            <div class="one">
-                <button class="applyBtn" onclick="window.open('http://www.geekskool.com/','_blank')">Apply now!</button>
-              </div>
-        </div>
-        <div id="one" class="single one">
-            <div class="columntxt">
-                <h4>Program</h4>
-                <p>The GEEKSKOOL program is a 3 month, full time, intensive, coding and training program held in Bangalore. The program
-                  is for those who want to make the most of a career in startups.</p>
-              </div>
-              <div class="columntxt">
-                <h4>Skills</h4>
-                <p>Students get to choose the language of their choice. Geekskool unleashes the good programmer in them and prepares
-                  them for the demanding environment of startups.</p>
-              </div>
-              <div class="columntxt">
-                <h4>Project Based</h4>
-                <p>The program is project based. Participants are encouraged to create open source projects in their areas of interest.</p>
-              </div>
-              <br>
-              <div class="columntxt">
-                <h4>Free!</h4>
-                <p>Yes! The program is free for all participants! We make money from companies that hire our students.</p>
-              </div>
-              <div class="columntxt">
-                <h4>Students</h4>
-                <p>Our students are highly self motivated, determined to be best of breed, with high levels of social skills to work
-                  well in teams.</p>
-              </div>
-              <div class="columntxt">
-                <h4>Experts</h4>
-                <p>Our expert trainers have more than ten years of experience in the software industry. Have contributed to and are
-                  involved in the open source software community.</p>
-              </div>
-              <div id="apply" class="text">
-                <h2>Who can apply?</h2>
-                <p>Programmers who want to become better programmers</p>
-                <p>Programmers out of touch for a while, and want to get back into programming</p>
-                <p>Professionals who want to make a career change to programming</p>
-                <p>Corporate programmers who want to change over to startups</p>
-              </div>
-        </div>
-        <div id="two" class="single">
-            <h2>Frequently Asked Questions</h2>
-            <div class="columntxt">
-              <h4 class="heading5">What is required of the students?</h4>
-              <p class="para">Students must reside in Bangalore and must attend Geekskool full time. Must carry their own laptops.</p>
-            </div>
-            <div class="columntxt">
-              <h4 class="heading5">Can I be employed while at Geekskool?</h4>
-              <p class="para">The Geekskool programme is fulltime, Monday to Friday, 9am to 5pm, and can not be done while employed.</p>
-            </div>
-            <div class="columntxt">
-              <h4 class="heading5">When does the next batch start?</h4>
-              <p class="para">We have a rolling admissions policy. Once you are selected, you have to join immediately, and the course duration
-                is 12 weeks from the date you join.</p>
-            </div>
-            <div class="columntxt">
-              <h4 class="heading5">I am not a college graduate. Can I apply?</h4>
-              <p class="para">Sure you can. If you know a programming language and can demonstrate your passion for it, please apply!</p>
-            </div>
-            <div class="columntxt">
-              <h4 class="heading5">Can I join Geekskool while in college?</h4>
-              <p class="para">The Geekskool programme is fulltime, Monday to Friday, 9am to 5pm, and can not be done while in college.</p>
-            </div>
-            <div class="columntxt">
-              <h4 class="heading5">Can I join Geekskool while in college, as an intern?</h4>
-              <p class="para">The Geekskool programme is fulltime, Monday to Friday, 9am to 5pm, and is meant for those who want to take up a job
-                after the program. We do not have any internship programs.</p>
-            </div>
 
-            <div id="founders" class="sections">
-                <h2>Founders</h2>
-                <div class="columnimg column2">
-                  <div>
-                    <img src='../images/santosh280.jpg'>
-                  </div>
-                  <h4 class="name">Santosh Rajan</h4>
-                  <p class="para">With over 32 years of programming expertise, he founded GEEKSKOOL after experiencing the lack of trained programmers
-                    with industry ready skills.</p>
-                </div>
-                <div class="columnimg column2">
-                  <div class="image">
-                    <img src='../images/simba.jpg'>
-                  </div>
-                  <h4 class="name">Simba</h4>
-                  <p class="para">Chief Happiness Officer</p>
-                </div>
-              </div>
-        </div>
-        <div id="three" class="single">third div</div>
-        <div id="four" class="single">four div</div>        
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/9.css">
+  <title>GEEKSKOOL</title>
+</head>
+
+<body>
+  <div class="navbar" id="navbar">
+    <div class="logo">
+      <img src='../images/logo.png' />
+      <a href="/" class="header">GEEKSKOOL</a>
+    </div>
+    <div class="navbar-short">
+      <img src="../images/bar-menu.png">
+    </div>
+    <!-- <div> -->
+      <ul>
+        <li onclick="toggleDisplay('one')">About</li>
+        <li onclick="toggleDisplay('two')">FAQ</li>
+        <li onclick="toggleDisplay('three')">Alumni</li>
+        <li onclick="toggleDisplay('four')">Mentors</li>
+        <li onclick="toggleApply('zero')">Apply</li>
+      </ul>
+    <!-- </div> -->
+  </div>
+  <div class="container">
+    <div id="zero" class="single zero">
+      <div class="one">
+        <button class="applyBtn" onclick="window.open('http://www.geekskool.com/','_blank')">Apply now!</button>
       </div>
-    </body>
-      <script src="./scripts/9.js"></script>
-    </html>
+    </div>
+    <div id="one" class="single one">
+      <div class="columntxt">
+        <h4>Program</h4>
+        <p>The GEEKSKOOL program is a 3 month, full time, intensive, coding and training program held in Bangalore. The program
+          is for those who want to make the most of a career in startups.</p>
+      </div>
+      <div class="columntxt">
+        <h4>Skills</h4>
+        <p>Students get to choose the language of their choice. Geekskool unleashes the good programmer in them and prepares
+          them for the demanding environment of startups.</p>
+      </div>
+      <div class="columntxt">
+        <h4>Project Based</h4>
+        <p>The program is project based. Participants are encouraged to create open source projects in their areas of interest.</p>
+      </div>
+      <br>
+      <div class="columntxt">
+        <h4>Free!</h4>
+        <p>Yes! The program is free for all participants! We make money from companies that hire our students.</p>
+      </div>
+      <div class="columntxt">
+        <h4>Students</h4>
+        <p>Our students are highly self motivated, determined to be best of breed, with high levels of social skills to work
+          well in teams.</p>
+      </div>
+      <div class="columntxt">
+        <h4>Experts</h4>
+        <p>Our expert trainers have more than ten years of experience in the software industry. Have contributed to and are
+          involved in the open source software community.</p>
+      </div>
+      <div id="apply" class="text">
+        <h2>Who can apply?</h2>
+        <p>Programmers who want to become better programmers</p>
+        <p>Programmers out of touch for a while, and want to get back into programming</p>
+        <p>Professionals who want to make a career change to programming</p>
+        <p>Corporate programmers who want to change over to startups</p>
+      </div>
+    </div>
+    <div id="two" class="single">
+      <h2>Frequently Asked Questions</h2>
+      <div class="columntxt">
+        <h4 class="heading5">What is required of the students?</h4>
+        <p class="para">Students must reside in Bangalore and must attend Geekskool full time.
+             Must carry their own laptops.</p>
+      </div>
+      <div class="columntxt">
+        <h4 class="heading5">Can I be employed while at Geekskool?</h4>
+        <p class="para">The Geekskool programme is fulltime, Monday to Friday, 9am to 5pm, and can not be done while employed.</p>
+      </div>
+      <div class="columntxt">
+        <h4 class="heading5">When does the next batch start?</h4>
+        <p class="para">We have a rolling admissions policy. Once you are selected, you have to join immediately, and the course duration
+          is 12 weeks from the date you join.</p>
+      </div>
+      <div class="columntxt">
+        <h4 class="heading5">I am not a college graduate. Can I apply?</h4>
+        <p class="para">Sure you can. If you know a programming language and can demonstrate your passion for it, please apply!</p>
+      </div>
+      <div class="columntxt">
+        <h4 class="heading5">Can I join Geekskool while in college?</h4>
+        <p class="para">The Geekskool programme is fulltime, Monday to Friday, 9am to 5pm, and can not be done while in college.</p>
+      </div>
+      <div class="columntxt">
+        <h4 class="heading5">Can I join Geekskool while in college, as an intern?</h4>
+        <p class="para">The Geekskool programme is fulltime, Monday to Friday, 9am to 5pm, and is meant for those who want to take up a job
+          after the program. We do not have any internship programs.</p>
+      </div>
+
+      <div id="founders" class="sections">
+        <h2>Founders</h2>
+        <div class="columnimg column2">
+          <div>
+            <img src='../images/santosh280.jpg'>
+          </div>
+          <h4 class="name">Santosh Rajan</h4>
+          <p class="para">With over 32 years of programming expertise, he founded GEEKSKOOL after experiencing the lack of trained programmers
+            with industry ready skills.</p>
+        </div>
+        <div class="columnimg column2">
+          <div class="image">
+            <img src='../images/simba.jpg'>
+          </div>
+          <h4 class="name">Simba</h4>
+          <p class="para">Chief Happiness Officer</p>
+        </div>
+      </div>
+    </div>
+    <div id="three" class="single">third div</div>
+    <div id="four" class="single">four div</div>
+  </div>
+</body>
+<script src="./scripts/9.js"></script>
+
+</html>
