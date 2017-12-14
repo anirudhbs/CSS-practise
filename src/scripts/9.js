@@ -24,13 +24,9 @@ function toggleApply(id) {
   current.style.width = '100%'
 }
 
-const m = document.querySelector(".navbar-short")
-m.addEventListener("click", function () {
-  console.log('clicked')
-  const a = document.getElementById("navbar")
-  if (a.classList.contains("active")) {
-    a.classList.remove("active")
-  } else {
-    a.classList.add("active")
-  }
+const m = document.querySelector('.navbar-short')
+m.addEventListener('click', function () {
+  const a = document.getElementById('navbar')
+  if (a.classList.contains('active')) a.classList.remove('active')
+  else a.classList.add('active')
 })
