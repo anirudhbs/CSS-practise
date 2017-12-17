@@ -1,0 +1,25 @@
+.container {
+  border: 1px solid black;
+  display: block;
+  height: 85vh;
+  width: 100%;
+}
+
+.single {
+  float: left;
+  background-color: lightblue;
+  width: 0%;
+  transition: width 500ms ease;
+  overflow: auto;
+  height: 100%;
+}
+
+ul {
+  display: inline-block;
+}
+
+.one {
+  background-image: url("../../images/geekskool.jpg");
+  background-position: center;
+  background-size: cover;
+}
