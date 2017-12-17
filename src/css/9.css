@@ -16,6 +16,21 @@ a {
   color: #ffffff;
 }
 
+hr{
+  color: #f6f5f3;
+  height: 1px;
+}
+
+.button {
+  margin: 15px;
+  padding: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #ec9d90;
+  border-radius: 10px;
+  border: 0px;
+}
+
 .container {
   display: block;
   height: 96vh;
