@@ -90,7 +90,7 @@ ul {
 
 .navbar-short {
   display: inline-block;
-  /* float: right; */
+  float: right;
   padding: 7px;
 }
 
@@ -247,7 +247,6 @@ ul {
 
 .columnimg {
   padding: 15px;
-  width: 100%;
   text-align: center;
   box-sizing: border-box;
 }
@@ -285,7 +284,7 @@ footer {
 }
 
 .footer-links li {
-  width: 100%;
+  width: 50%;
   float: left;
   text-align: center;
   list-style: none;
